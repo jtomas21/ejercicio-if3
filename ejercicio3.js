@@ -12,10 +12,10 @@ let segundoNumero = prompt("ingresa el segundo numero y estaras un paso mas cerc
 let tercerNumero = prompt("ingresa el ultimo numero, suerte!")
 
 if ((primerNumero == segundoNumero && primerNumero == tercerNumero)) {
-    document.write("felicidades eres el ganador de 500 pesos")   
+    document.write("felicidades eres el ganador de" + PRIMER_PREMIO )    
 } else {
     if ((primerNumero == segundoNumero) || (primerNumero == tercerNumero) || (segundoNumero == tercerNumero)) {
-        document.write("felicidades has recibido el 2do premio de 250 pesos")
+        document.write("felicidades has recibido el 2do premio de" + SEGUNDO_PREMIO)
         
     } else {
         document.write("lo sentimos solo ganaste"+ TERCER_PREMIO)
